@@ -5,50 +5,61 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Parallelism by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Parallelism by HTML5 UP</title>
 
-				<!-- Main -->
-					<section id="main">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-						<!-- Items -->
-							<div class="items">
+<body class="is-preload">
 
-								<div class="item intro span-3">
-									<h1>Compagnia buona la prima</h1>
-									<p>Musical, teatro<br />
-									Recitazione</p>
-								</div>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-								<article class="item thumb span-1">
-									<h2>You really got me</h2>
-									<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt=""></a>
-								</article>
+		<!-- Main -->
+		<section id="main">
 
-								<article class="item thumb span-2">
-									<h2>Ad Infinitum</h2>
-									<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt=""></a>
-								</article>
+			<!-- Items -->
+			<div class="items">
 
-								<article class="item thumb span-1">
-									<h2>Different.</h2>
-									<a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt=""></a>
-								</article>
+				<div class="item intro span-3">
+					<h1 style="font-size: 2.5em">Compagnia buona la prima</h1>
+					<p>Musical e Teatro
+						<br /> a Torino</p>
+				</div>
 
-								<article class="item thumb span-1">
+				<article class="item thumb span-1 cursorPointer">
+					<h2>Biografia</h2>
+					<a class="image navigational">
+						<img src="images/thumbs/colori.jpg" alt="" onclick="changePage('Biografia')">
+					</a>
+				</article>
+
+				<article class="item thumb span-1">
+					<h2>I volti della compagnia</h2>
+					<a href="images/fulls/volti.jpg" class="image">
+						<img src="images/thumbs/volti.jpg" alt="">
+					</a>
+				</article>
+
+				<article class="item thumb span-1">
+					<h2>Contatti</h2>
+					<a href="images/fulls/fake3.jpeg" class="image">
+						<img src="images/thumbs/fake3.jpeg" alt="">
+					</a>
+				</article>
+
+				<!-- <article class="item thumb span-1">
 									<h2>Elysium</h2>
 									<a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a>
-								</article>
-
+								</article> -->
+				<!-- 
 								<article class="item thumb span-3">
 									<h2>Kingdom of the Wind</h2>
 									<a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a>
@@ -67,13 +78,43 @@
 								<article class="item thumb span-2">
 									<h2>The Spectators</h2>
 									<a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a>
-								</article>
+								</article> -->
 
-							</div>
+			</div>
 
-						<!-- Items -->
-							<div class="items">
-
+			<!-- Items -->
+			<div class="items">
+				<article class="item thumb span-3">
+					<h2>Frankenstein Junior</h2>
+					<a href="images/fulls/frank.jpg" class="image">
+						<img src="images/thumbs/frank.jpg" alt="">
+					</a>
+				</article>
+				<article class="item thumb span-1">
+					<h2>Mamma mia!</h2>
+					<a href="images/fulls/mamma.jpg" class="image">
+						<img src="images/thumbs/mamma.jpg" alt="">
+					</a>
+				</article>
+				<article class="item thumb span-2">
+					<h2>Blues Brothers</h2>
+					<a href="images/fulls/blues.jpg" class="image">
+						<img src="images/thumbs/blues.jpg" alt="">
+					</a>
+				</article>
+				<article class="item thumb span-3">
+					<h2>Alice nel Paese delle Meraviglie</h2>
+					<a href="images/fulls/alice.jpg" class="image">
+						<img src="images/thumbs/alice.jpg" alt="">
+					</a>
+				</article>
+				<article class="item thumb span-3">
+					<h2>Full Monthy</h2>
+					<a href="images/fulls/full.jpg" class="image">
+						<img src="images/thumbs/full.jpg" alt="">
+					</a>
+				</article>
+				<!-- 
 								<article class="item thumb span-3"><h2>Kingdom of the Wind</h2><a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a></article>
 								<article class="item thumb span-1"><h2>The Pursuit</h2><a href="images/fulls/06.jpg" class="image"><img src="images/thumbs/06.jpg" alt=""></a></article>
 								<article class="item thumb span-2"><h2>Boundless</h2><a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a></article>
@@ -82,41 +123,80 @@
 								<article class="item thumb span-2"><h2>Ad Infinitum</h2><a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt=""></a></article>
 								<article class="item thumb span-1"><h2>Different.</h2><a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt=""></a></article>
 								<article class="item thumb span-2"><h2>Kingdom of the Wind</h2><a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a></article>
-								<article class="item thumb span-1"><h2>Elysium</h2><a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a></article>
-
-							</div>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<section>
-							<p>This is <strong>Parallelism</strong>, a responsive portfolio site template by <a href="http://html5up.net">HTML5 UP</a>. Free for personal
-							and commercial use under the <a href="http://html5up.net/license">Creative Commons Attribution</a> license.</p>
-						</section>
-						<section>
-							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</section>
-					</section>
+								<article class="item thumb span-1"><h2>Elysium</h2><a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a></article> 
+							-->
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+		</section>
+
+		<section id="sub" style="display: none">
+			<div class="items">
+				<article class="item thumb span-3">
+					<h2>Frankenstein Junior</h2>
+					<a href="images/fulls/frank.jpg" class="image">
+						<img src="images/thumbs/frank.jpg" alt="">
+					</a>
+				</article>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<section>
+				<p>Compagnia teatrale
+					<strong>Buona la prima</strong>, Tutti i diritti riservati
+					<a href="http://html5up.net">Torino</a>.
+			</section>
+			<section>
+				<ul class="icons">
+					<li>
+						<a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-dribbble">
+							<span class="label">Dribbble</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-envelope">
+							<span class="label">Email</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Buonalaprima</li>
+					<li>Design:
+						<a href="http://foolstack.it">foolstack.it</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/site.js"></script>
+
+</body>
+
 </html>

@@ -7,6 +7,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@keyframes hiding {
+    0%   {opacity: 1}
+    50%  {opacity: 0.5}
+    100% {opacity: 0}
+}
+.hider {
+    animation-name: hiding;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+}
+
+.cursorPointer {
+	cursor: pointer !important;
+}
+
+.invisible {
+	visibility: hidden;	
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -384,7 +403,8 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				/* background-color: #d64760; */
+				background-color: #47d699;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
